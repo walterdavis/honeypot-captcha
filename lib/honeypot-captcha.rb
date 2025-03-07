@@ -32,4 +32,4 @@ module HoneypotCaptcha
   end
 end
 
-ActionController::Base.send(:include, HoneypotCaptcha::SpamProtection) if defined?(ActionController::Base)
+# ActionController::Base.send(:include, HoneypotCaptcha::SpamProtection) if defined?(ActionController::Base)
